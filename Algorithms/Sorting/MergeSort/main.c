@@ -1,7 +1,3 @@
-/*THIS CODE IS NOT WORKING PROPERLY. I WILL UPDATE IT AS SOON AS POSSIBLE I AM TRYING TO RESOLVE THE ERRORS*/
-
-
-
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
