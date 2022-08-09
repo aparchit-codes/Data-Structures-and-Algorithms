@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 
-merge(int A[], int const p, int const q, int const r){
+void merge(int A[], int const p, int const q, int const r){
     int n1 = q-p+1, n2 = r-q, i, j, k;
 
     int *L=malloc((n1)*(sizeof(int))); 
@@ -36,7 +36,7 @@ merge(int A[], int const p, int const q, int const r){
     }
 }
 
-mergeSort(int A[], int p, int r){
+void mergeSort(int A[], int p, int r){
 
     if(p<r){
         int q=p+(r-p)/2;
