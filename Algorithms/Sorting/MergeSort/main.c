@@ -61,4 +61,7 @@ int main(){
         printf("%d ", A[i]);
     return 0;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> cc7544e4df00706f2cb5f4985518560b155015ab
